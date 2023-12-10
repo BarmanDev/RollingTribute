@@ -1,0 +1,74 @@
+.table-concerts{
+
+    background-color: #292323;
+
+
+}
+.title-concerts h1{
+    padding-top: 6rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.styled-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: 292323;
+    border-collapse: collapse;
+    padding: 6rem;
+  }
+
+  .styled-table tr {
+    border: 4px solid white;
+
+  }
+
+  .styled-table td {
+    padding: 10px; 
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .btn-concerts{
+    background-color: red;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    .styled-table th,
+    .styled-table td {
+      font-size: 12px; 
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .styled-table {
+      display: block; 
+    }
+  
+    .styled-table thead,
+    .styled-table tbody,
+    .styled-table tr,
+    .styled-table td {
+      display: block;
+      width: 100%;
+    }
+  
+    .styled-table td {
+      text-align: left;
+      margin-bottom: 10px;
+    }
+  }

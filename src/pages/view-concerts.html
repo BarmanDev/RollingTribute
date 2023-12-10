@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style.scss">
     <title>Shop</title>
 </head>
 <body>
@@ -42,28 +42,58 @@
         <span></span>
     </div>
 </nav>
-        <h1>CONCIERTOS</h1>
-
-        <table>
-
+<main>
+    <div class="table-concerts">
+        <div class="title-concerts">
+            <h1>CONCIERTOS</h1>
+        </div>
+        <table class="styled-table">
               <tr>
-                <td>01/01/2023</td>
-                <td>Ciudad A</td>
-                <td>País A</td>
-                <td>Estadio 1</td>
-                <td><button onclick="getTicket()">Get Ticket</button></td>
+                <td>11TH MARCH 2024</td>
+                <td>GLASGOW, UNITED KINGDOM</td>
+                <td>OVO HYDRO</td>
+                <td><button class="btn-concerts" onclick="getTicket()">Get Ticket</button></td>
               </tr>
-              <!-- Puedes agregar más filas según sea necesario -->
+              <tr>
+                <td>13TH MARCH 2024</td>
+                <td>LEEDS, UNITED KINGDOM</td>
+                <td>FIRST DIRECT ARENA</td>
+                <td><button class="btn-concerts" onclick="getTicket()">Get Ticket</button></td>
+              </tr>
+              <tr>
+                <td>15TH MARCH 2024</td>
+                <td>DUBLIN, IRELAND</td>
+                <td>3ARENA</td>
+                <td><button class="btn-concerts" onclick="getTicket()">Get Ticket</button></td>
+              </tr>
+              <tr>
+                <td>17TH MARCH 2024</td>
+                <td>BOURNEMOUTH, UNITED KINGDOM</td>
+                <td>BOURNEMOUTH INTERNATIONAL </td>
+            
+                <td><button class="btn-concerts" onclick="getTicket()">Get Ticket</button></td>
+              </tr>
+              <tr>
+                <td>19TH MARCH 2024</td>
+                <td>BIRMINGHAM, UNITED KINGDOM</td>
+                <td>RESORTS WORLD ARENA</td>
+                <td><button class="btn-concerts" onclick="getTicket()">Get Ticket</button></td>
+              </tr>
+              <tr>
+                <td>21ST MARCH 2024</td>
+                <td>LONDON, UNITED KINGDOM</td>
+                <td>OVO ARENA WEMBLEY</td>
+                <td><button class="btn-concerts" onclick="getTicket()">Get Ticket</button></td>
+              </tr>
             </tbody>
           </table>
-
+        </div>
+        </main>
           <footer class="myfooter">
-      
-            <img src="../../src/assets/img/logo.png" alt="imagefooter">
-            <p style="float: center;">@copy right 2023</p>
-            
-            
+            <img class="img-footer" src="../../src/assets/img/logo.png" alt="imagefooter">
+            <p style="float: center;">@copy right 2023</p>   
         </footer>
+
 </body>
 <script type="module" src="/src/main.ts"></script>
 </html>
