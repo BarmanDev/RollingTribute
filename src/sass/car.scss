@@ -8,11 +8,17 @@ html{
 
 .container nav {
     width: 100%;
-    padding: 15px;
-    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    padding: 3px;
+    background-color: #bfbaba;
     margin-bottom: 30px;
     color: #333;
 }
+.navimg img {
+    height: 2.5px ;
+}
+
 h1 {
     text-align: center;
     margin-bottom: 20px;
@@ -26,13 +32,47 @@ h1 {
     margin: auto;
     gap: 25px;
     grid-template-columns: repeat(3,280px);
+    padding-bottom: 50px;
 
 }
 .items {
-    border: solid thin red;
+    background-color: #fff;
+    border: solid thin #e1e1e1;
 }
 .items img {
     width: 100%;
     height: 170px;
      
 }
+.información {
+    padding: 15px;
+}
+.información h2 {
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.precio p {
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+.información button {
+    padding: 0.8rem;
+    width: 100%;
+    background-color: #f90404;
+    border: none;
+    outline: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1,1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+
+}
+.información button:hover {
+    background-color: black;
+    transition: all .3s;
+}
+
