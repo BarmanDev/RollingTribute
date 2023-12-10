@@ -1,20 +1,31 @@
 .banner {
+    position: relative;
     width: 100%;
-    max-height: 78vh; 
+    max-height: 78vh;
     overflow: hidden;
 }
 
 .banner video {
     width: 100%;
     height: 100%;
-    object-fit: cover; 
-
+    object-fit: cover;
 }
 
 .button-pre {
     position: absolute;
-    bottom: 2rem; 
+    bottom: 5%; 
     left: 50%;
     transform: translateX(-50%);
-    
+}
+
+@media (max-width: 768px) {
+    .button-pre {
+        bottom: 10%;
+    }
+}
+
+@media (max-width: 600px) {
+    .button-pre {
+        bottom: 15%;
+    }
 }
