@@ -18,8 +18,8 @@ Este es un proyecto colaborativo para crear una página web en tributo a los Rol
 
 ## Colaboradores 
 
-[Borja Fernández](https://github.com/BarmanDev)
-[Matilde Gracia](https://github.com/MatiGarciaS)
+- [Borja Fernández](https://github.com/BarmanDev)
+- [Matilde Gracia](https://github.com/MatiGarciaS)
 
 
 
